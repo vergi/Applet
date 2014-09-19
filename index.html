@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Аплет ООД</title>
+		<link href="css/typography.css" rel="stylesheet"/>
+		<link href="css/common.css" rel="stylesheet"/>
+		<link href="css/forms.css" rel="stylesheet"/>
+		<link href="css/font-awesome.min.css" rel="stylesheet"/>
+		<script src="js/jquery-2.1.1.min.js"></script>
+		<script src="js/backbutton.js"></script>
+	</head>
+	<body>
+		<div class="container">
+			<iframe class="header" src="header.html"></iframe>
+			<div class="main">
+				<div class="content">
+					<div class="inside">
+						<h2 class="alingcenter">Вход за проверка на пощенска кутия:</h2>
+									<form action="http://applet.bg:2095/login/" method="post" name="login">
+										<p>	
+											<label for="email"><span class="fa fa-envelope-square fa-lg icons"></span>Е-мейл:</label>
+											<input type="email" name="user" id="email" required="required" placeholder="username@yourdomain.com">
+										</p>
+										<p>
+											<label for="password"><span class="fa fa-key fa-lg icons"></span>Парола:</label>
+											<input type="password" name="pass" id="password" required="required" placeholder="Вашата парола!">
+										</p>
+										<p class="alingcenter">
+											<button type="submit" class="button"><span class="fa fa-sign-in"></span> Login</button>
+										</p>
+									</form>
+						<h2 class="alingcenter"><a href="./files/Applet.exe">Отдалечена Помощ</a></h2>
+						<h4 class="alingcenter">Конфигуриране на пощенски клиенти за работа с пощенска кутия - <em>youremail@applet-bg.com</em></h4>
+						<h5 class="alingcenter">Outlook Express 6 - <a href="OE.html">POP3 и IMAP4</a></h5>
+						<h5 class="alingcenter">Outlook 2003 - <a href="MSO.html">POP3 и IMAP4</a></h5>
+						<h5 class="alingcenter">IncrediMail - <a href="INpop3.html">POP3</a></h5>
+						<h5 class="alingcenter">Windows XP <a href="./Win-XP/Win-XP.pdf"> control panel</a></h5>
+						<a href="#" class="back-to-top"><span class="fa fa-chevron-up fa-lg"></span></a>
+					</div>
+				</div>
+				<div class="sidebar">
+					<iframe class="navframe" src="menu.html"></iframe>
+				</div>				
+			</div>
+			<iframe class="footer" src="footer.html"></iframe>
+		</div>
+	</body>
+</html>

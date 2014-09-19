@@ -1,0 +1,58 @@
+form {
+	width: 26em;
+	height: auto;
+	margin: 1em auto;
+	border-radius: 0.5em;
+	border: 0.25em solid #ddd;
+	padding: 0.3em 0.6em;
+}
+
+form > p {
+	padding: 0.3em 0;
+}
+
+form  label {
+	display: inline-block;
+	font-weight: bold;
+	Width: 6.5em;
+	text-align: left;
+}
+
+form #email, #password {
+	border-radius: 0.5em;
+	border: 0.25em solid #ddd;
+	height: 1.6em;
+	width: 18em;
+	padding: 0.25em;
+	font-weight: bold;
+}
+
+form #email:focus, #password:focus {
+	border-color: darkorange;
+}
+
+form .button  {
+	border: 0;
+	background: #d9534f;
+	color: white;
+	text-align: center;
+	font-family: Helvetica; 
+	font-size: 1.125em;
+	border-radius: 0.5em;
+	padding: 0.3em 0.6em;
+	margin-top: 0.2em;
+	box-shadow: 0 0 0.41em #d9534f;
+}
+
+form .button:hover {
+	cursor: pointer;
+	background: #ca2f2c;
+	color: silver;
+}
+
+form .icons {
+	display: inline-block;
+	width: 1.2em;
+	text-align: left;
+	padding-left: 0.2em;
+}

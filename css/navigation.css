@@ -1,0 +1,22 @@
+nav ul { margin: 0; padding: 1.25em 0; }
+nav ul li { display: block; list-style: none outside; }
+nav ul li a:link { color: white; }
+nav ul li a:visited { color: white; }
+
+nav > ul > li { padding: 0.4em 0.6em; }
+
+nav > ul  > li  > a { 
+	display: block; 
+	background: #d9534f;
+	color: white;
+	width: 8.33em; 
+	text-align: left;
+	font-family: Helvetica; 
+	font-size: 1.5em;
+	border-radius: 0.41em;
+	box-shadow: 0 0 0.41em #d9534f;
+}
+
+nav > ul > li > a:hover { background: #ca2f2c; color: silver; box-shadow: 0 0 0.41em #ca2f2c; }
+
+nav > ul  > li  > a > .icon { display: inline-block; width: 1.5em; text-align: center; padding: 0 0.6em 0 0.8em; }
