@@ -12,6 +12,8 @@ h5 { font-size: 1.2em; }
 h6 { font-size: 1.0em; font-weight: bold; }
 
 a { text-decoration: none; }
+a:link { color: #ca2f2c; }
+a:visited { color: darkorange; }
 
 ul { padding-left: 1em; padding-bottom: 0.5em;}
 
@@ -19,3 +21,5 @@ ul li { list-style-type: disc; }
 ul li ul li { list-style-type: circle; }
 
 .alingcenter { text-align: center; padding: 0.2em; }
+.alingleft { text-align: left; padding: 0.2em; }
+.alingright { text-align: right; padding: 0.2em; }
