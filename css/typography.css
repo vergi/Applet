@@ -23,3 +23,5 @@ ul li ul li { list-style-type: circle; }
 .alingcenter { text-align: center; padding: 0.2em; }
 .alingleft { text-align: left; padding: 0.2em; }
 .alingright { text-align: right; padding: 0.2em; }
+
+.hidden { display: none; }

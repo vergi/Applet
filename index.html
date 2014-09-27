@@ -9,7 +9,11 @@
 		<link href="css/back-button.css" rel="stylesheet" type="text/css" charset="utf-8">
 		<link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" charset="utf-8">
 		<script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>
+		<!-- Add Back to Top -->
 		<script type="text/javascript" src="js/backbutton.js"></script>
+		<!-- Add SwipeBox -->
+		<link rel="stylesheet" href="js/swbox/css/swipebox.css">
+		<script type="text/javascript" src="js/swbox/js/jquery.swipebox.js"></script>
 	</head>
 	<body>
 		<div class="container">
@@ -17,11 +21,11 @@
 			<div class="main">
 				<div class="content">
 					<div class="inside">
-						<h2 class="alingcenter">Вход за проверка на пощенска кутия:</h2>
+						<h3 class="alingcenter">Вход за поща <em>yourname@applet-bg.com</em>:</h3>
 									<form action="http://applet.bg:2095/login/" method="post" name="login">
 										<p>	
 											<label for="email"><span class="fa fa-envelope-square fa-lg icons"></span>Е-мейл:</label>
-											<input type="email" name="user" id="email" required="required" placeholder="username@yourdomain.com">
+											<input type="email" name="user" id="email" required="required" placeholder="username@applet-bg.com">
 										</p>
 										<p>
 											<label for="password"><span class="fa fa-key fa-lg icons"></span>Парола:</label>
@@ -33,9 +37,48 @@
 									</form>
 						<h2 class="alingcenter"><a href="./files/Applet.exe">Отдалечена Помощ</a></h2>
 						<h4 class="alingcenter">Конфигуриране на пощенски клиенти за работа с пощенска кутия - <em>youremail@applet-bg.com</em></h4>
-						<h5 class="alingcenter">Outlook Express 6 - <a href="OE.html">POP3 и IMAP4</a></h5>
-						<h5 class="alingcenter">Outlook 2003 - <a href="MSO.html">POP3 и IMAP4</a></h5>
-						<h5 class="alingcenter">IncrediMail - <a href="INpop3.html">POP3</a></h5>
+						<h5 class="alingcenter">Outlook Express 6 - <a rel="gallery-1" href="img/OutlookExpress6/OE1.jpg" class="swipebox" title="След стартиране на Outlook Express се избира от лентата с основното меню &quot;Tools&quot; -> &quot;Accounts…&quot;."><img class="hidden" src="img/OutlookExpress6/OE1.jpg" alt="image">POP3 и IMAP4</a></h5>
+						<div class="hidden">
+							<a rel="gallery-1" href="img/OutlookExpress6/OE2.jpg" class="swipebox" title="Избира се Tab &quot;Mail&quot;, натиснете бутонa &quot;Add&quot;, и избирате &quot;Mail...&quot;."><img src="img/OutlookExpress6/OE2.jpg" alt="image"></a>
+							<a rel="gallery-1" href="img/OutlookExpress6/OE3.jpg" class="swipebox" title="В полето &quot;Display Name:&quot;, напишете си вашето име и Натиснете бутонa &quot;Next&quot;."><img src="img/OutlookExpress6/OE3.jpg" alt="image"></a>
+							<a rel="gallery-1" href="img/OutlookExpress6/OE4.jpg" class="swipebox" title="В полето &quot;E-mail address:&quot;, напишете вашият е-мейл и Натиснете бутон &quot;Next&quot;, или е-мейл към вашият домейн."><img src="img/OutlookExpress6/OE4.jpg" alt="image"></a>
+							<a rel="gallery-1" href="img/OutlookExpress6/OE5.jpg" class="swipebox" title="В полето &quot;My incoming mail server is a&quot;, Изберете POP3 Или IMAP, в &quot;Incoming Mail (POP3, IMAP or HTTP) server&quot; и в &quot;Outgoing Mail (SMTP) server&quot;, напишете &quot;mail.applet-bg.com&quot;, или вашият е-мейл сървър и натиснете &quot;Next&quot;."><img src="img/OutlookExpress6/OE5.jpg" alt="image"></a>
+							<a rel="gallery-1" href="img/OutlookExpress6/OE6.jpg" class="swipebox" title="В &quot;Account name:&quot;, напишете вашият е-маил адрес, в &quot;Password:&quot;, напишете вашата парола, натиснете бутонa &quot;Next&quot;."><img src="img/OutlookExpress6/OE6.jpg" alt="image"></a>
+							<a rel="gallery-1" href="img/OutlookExpress6/OE7.jpg" class="swipebox" title="Натиснете бутонa &quot;Finish&quot;."><img src="img/OutlookExpress6/OE7.jpg" alt="image"></a>					
+							<a rel="gallery-1" href="img/OutlookExpress6/OE8.jpg" class="swipebox" title="Нужни са още допълнителни настройки - отидете отново в &quot;Tools&quot; -> &quot;Accounts…&quot;."><img src="img/OutlookExpress6/OE8.jpg" alt="image"></a>
+							<a rel="gallery-1" href="img/OutlookExpress6/OE9.jpg" class="swipebox" title="Избира се Tab &quot;Mail&quot; -> Виждате акаунта &quot;mail.applet-bg.com&quot;, натиснете бутонa &quot;Properties&quot;."><img src="img/OutlookExpress6/OE9.jpg" alt="image"></a>
+							<a rel="gallery-1" href="img/OutlookExpress6/OE10.jpg" class="swipebox" title="В Tab &quot;General&quot;, &quot;Mail Account&quot; се вписва име на акаунта (Applet Mail)."><img src="img/OutlookExpress6/OE10.jpg" alt="image"></a>
+							<a rel="gallery-1" href="img/OutlookExpress6/OE11.jpg" class="swipebox" title="В Tab &quot;Servers&quot;, отмята се кутииката &quot;My outgoing server (SMTP) requires Authentication&quot;"><img src="img/OutlookExpress6/OE11.jpg" alt="image"></a>
+							<a rel="gallery-1" href="img/OutlookExpress6/OE12.jpg" class="swipebox" title="Ако се използва POP3, кликнете на &quot;Advanced&quot;, отмятат се кутиики – &quot;Leave copy of messages on the server&quot;, &quot;Remove from server after 10 days&quot; и &quot;Remove from server when deleted from ‘Deleted Items’&quot;."><img src="img/OutlookExpress6/OE12.jpg" alt="image"></a>
+							<a rel="gallery-1" href="img/OutlookExpress6/OE13.jpg" class="swipebox" title="Ако се използва IMAP, кликнете на &quot;Advanced&quot;, на полето &quot;Root folder path:&quot; напишете &quot;INBOX&quot;, в полето &quot;Sent Items path:&quot; трябва да остане само &quot;Sent&quot;."><img src="img/OutlookExpress6/OE13.jpg" alt="image"></a>
+							<a rel="gallery-1" href="img/OutlookExpress6/OE14.jpg" class="swipebox" title="След което се потвърждава с &quot;OK&quot;, ако се използва IMAP се отговаря с &quot;YES&quot;."><img src="img/OutlookExpress6/OE14.jpg" alt="image"></a>
+							<a rel="gallery-1" href="img/OutlookExpress6/OE15.jpg" class="swipebox" title="След което в новоотворения прозорец се избират папките от пощенската кутия който искате да се синхронизират със сървъра. -> След което се потвърждава с &quot;OK&quot;."><img src="img/OutlookExpress6/OE15.jpg" alt="image"></a>
+							<a rel="gallery-1" href="img/OutlookExpress6/OE16.jpg" class="swipebox" title="Ако всичко е настроено вярно и ИМАТЕ ИНТЕРНЕТ то тогава ще се появи презорчето за проверяване на поща:"><img src="img/OutlookExpress6/OE16.jpg" alt="image"></a>
+						</div>
+						<h5 class="alingcenter">Outlook 2003 - <a rel="gallery-2" href="img/Outlook2003/MSO1.jpg" class="swipebox" title="След стартиране на Outlook се избира от лентата с основното меню &quot;Tools&quot;-> &quot;E-mail Accounts…&quot;."><img class="hidden" src="img/Outlook2003/MSO1.jpg" alt="image">POP3 и IMAP4</a></h5>
+						<div class="hidden">
+							</a>
+							<a rel="gallery-2" href="img/Outlook2003/MSO2.jpg" class="swipebox" title="Избира се &quot;Add a new e-mail account&quot; и се натиска бутона &quot;Next&quot;."><img src="img/Outlook2003/MSO2.jpg" alt="image"></a>
+							<a rel="gallery-2" href="img/Outlook2003/MSO3.jpg" class="swipebox" title="Избира се &quot;POP3&quot;,"><img src="img/Outlook2003/MSO3.jpg" alt="image"></a>
+							<a rel="gallery-2" href="img/Outlook2003/MSO4.jpg" class="swipebox" title="или &quot;IMAP&quot; и се натиска бутона &quot;Next&quot;."><img src="img/Outlook2003/MSO4.jpg" alt="image"></a>
+							<a rel="gallery-2" href="img/Outlook2003/MSO4.jpg" class="swipebox" title="&quot;Your Name:&quot; – &quot;Вашето Име&quot;, &quot;Incoming mail server (POP3)&quot; или &quot;(IMAP):&quot;, &quot;Outgoing mail server (SMTP):&quot; – &quot;mail.applet-bg.com&quot;,"><img src="img/Outlook2003/MSO4.jpg" alt="image"></a>
+							<a rel="gallery-2" href="img/Outlook2003/MSO5.jpg" class="swipebox" title="&quot;User Name:&quot; – &quot;youremail@mail.applet-bg.com&quot; (целия адрес задължително се вписва), &quot;Password&quot; – &quot;********&quot;, Избира се бутона &quot;More Settings …&quot;."><img src="img/Outlook2003/MSO5.jpg" alt="image"></a>
+							<a rel="gallery-2" href="img/Outlook2003/MSO4.jpg" class="swipebox" title="Избира се Tab &quot;General&quot; -> &quot;Mail Account&quot; и се вписва име на акаунта (Applet Mail)."><img src="img/Outlook2003/MSO4.jpg" alt="image"></a>
+							<a rel="gallery-2" href="img/Outlook2003/MSO4.jpg" class="swipebox" title="Tab &quot;Outgoing Server&quot; -> избира се кутииката &quot;My outgoing server (SMTP) requires Authentication&quot;."><img src="img/Outlook2003/MSO4.jpg" alt="image"></a>
+							<a rel="gallery-2" href="img/Outlook2003/MSO4.jpg" class="swipebox" title="Ако се използва POP3, кликнете на &quot;Advanced&quot; -> отмятат се кутиики – &quot;Leave copy of messages on the server&quot;. &quot;Remove from server after 10 days&quot; и &quot;Remove from server when deleted from Deleted Items&quot;."><img src="img/Outlook2003/MSO4.jpg" alt="image"></a>
+							<a rel="gallery-2" href="img/Outlook2003/MSO4.jpg" class="swipebox" title="Ако се използва IMAP, кликнете на &quot;Advanced&quot; -> на полето &quot;Root folder path:&quot; впишете &quot;INBOX&quot;."><img src="img/Outlook2003/MSO4.jpg" alt="image"></a>
+							<a rel="gallery-2" href="img/Outlook2003/MSO4.jpg" class="swipebox" title="След което се потвърждава с &quot;OK&quot;, &quot;Next&quot;, и &quot;Finish&quot;."><img src="img/Outlook2003/MSO4.jpg" alt="image"></a>
+							<a rel="gallery-2" href="img/Outlook2003/MSO4.jpg" class="swipebox" title="Ако всичко е настроено вярно и ИМАТЕ ИНТЕРНЕТ то тогава ще се появи презорчето за проверяване на поща:"><img src="img/Outlook2003/MSO4.jpg" alt="image"></a>
+						</div>
+						<h5 class="alingcenter">IncrediMail - <a rel="gallery-3" href="img/IncrediMail/step1.jpg" class="swipebox" title="Стартирате програмата, изберете от основното меню &quot;Tools&quot; - &quot;Accounts&quot; - &quot;Add&quot;."><img class="hidden" src="img/IncrediMail/step1.jpg" alt="image">POP3</a></h5>
+						<div class="hidden">
+							<a rel="gallery-3" href="img/IncrediMail/step2.jpg" class="swipebox" title="Изберете &quot;Let me configure settings myself&quot;, и бутон &quot;Next&quot;."><img src="img/IncrediMail/step2.jpg" alt="image"></a>
+							<a rel="gallery-3" href="img/IncrediMail/step3.jpg" class="swipebox" title="В &quot;Your name is:&quot; - напишете вашето име, в &quot;Your email address:&quot; - &quot;youremail@mail.applet-bg.com&quot;, или е-мейл към вашият домейн хостван от Аплет и Next."><img src="img/IncrediMail/step3.jpg" alt="image"></a>
+							<a rel="gallery-3" href="img/IncrediMail/step4.jpg" class="swipebox" title="В &quot;My incoming mail server type is&quot; - POP3, в &quot;Incoming Mail server&quot; и &quot;Outgoing Mail server&quot; напишете &quot;mail.applet-bg.com&quot;, или на вашият сървър, и &quot;Next&quot;."><img src="img/IncrediMail/step4.jpg" alt="image"></a>
+							<a rel="gallery-3" href="img/IncrediMail/step5.jpg" class="swipebox" title="В &quot;Username:&quot;, вашият е-маил адрес или е-мейл към вашият домейн, в &quot;Password:&quot;, вашата парола, натиснете бутонa &quot;Finish&quot;."><img src="img/IncrediMail/step5.jpg" alt="image"></a>
+							<a rel="gallery-3" href="img/IncrediMail/step6.jpg" class="swipebox" title="След като натиснете &quot;Finish&quot; на предния прозорец, остава отворен прозореца &quot;Mail Accounts&quot;, в който има списък с въведените в IncrediMail пощенски кутии. Избирате тази, която въведохте току що и натиснете бутона &quot;Properties&quot;."><img src="img/IncrediMail/step6.jpg" alt="image"></a>
+							<a rel="gallery-3" href="img/IncrediMail/step7.jpg" class="swipebox" title="В Tab &quot;Servers&quot; отмятаме &quot;My server requires authentication&quot;, натискате бутона &quot;OK&quot;, след него &quot;Close&quot;. Ако всичко е настроено вярно и ИМАТЕ ИНТЕРНЕТ то тогава ще се появи презорчето за проверяване на поща."><img src="img/IncrediMail/step7.jpg" alt="image"></a>
+						</div>
 						<h5 class="alingcenter">Windows XP <a href="./Win-XP/Win-XP.pdf"> control panel</a></h5>
 						<a href="#" class="back-to-top"><span class="fa fa-chevron-up fa-lg"></span></a>
 					</div>
@@ -46,5 +89,6 @@
 			</div>
 			<iframe class="footer" src="footer.html"></iframe>
 		</div>
+		<script type="text/javascript" src="js/sb.js"></script>
 	</body>
 </html>

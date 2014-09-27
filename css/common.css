@@ -1,11 +1,13 @@
 body {
 	padding: 1.25em;
-	background: #eee;
+	background: #eee url('../img/bg.jpg') fixed top no-repeat;
+	background-size: 100% 100%;
 	overflow-y: scroll;
 }
 
 img {
 	max-width: 38.1em;
+	margin: 0.5em 0;
 }
 
 .map {
@@ -16,7 +18,7 @@ img {
 
 .framebar {
 	padding: 0;
-	background: white;
+	background: #fff;
 	overflow-y: hidden;
 }
 
@@ -27,11 +29,9 @@ img {
 	padding: 0 0 0 0.2em;
 }
 
-.container, .main { padding: 0.6em; border-radius: 0.6em; }
-.content, .sidebar {	float: right; background: white; }
-
-.inside { padding: 0.6em 1em 0.6em 0.6em; }
-.container {	width: 55em; height: auto; margin: 0 auto; background: #eed; }
+.content, .sidebar {	float: right; background: #fff; }
+.inside { overflow: hidden; padding: 0.6em 1em 0.6em 0.6em; }
+.container {	width: 55em; height: auto; margin: 0 auto; background: rgba(238,238,221,0.5); border-radius: 0.6em; padding: 0.6em 0.6em 0.2em 0.6em; }
 .content { width: 74%; }		
 .sidebar { width: 26%; }
 .offer { padding-left: 0.5%; width: 49.5%; float: left; }
@@ -46,7 +46,7 @@ img {
 	width: 53.84em;
 	height: 108px;
 	box-shadow: 0 0 0.8em #555;
-	background: white;
+	background: #fff;
 }
 
 .main {
@@ -54,7 +54,9 @@ img {
 	overflow: hidden;
 	border: 0;
 	box-shadow: 0 0 0.8em #555;
-	background: white;
+	background: #fff;
+	border-radius: 0.6em;
+	padding: 0.6em;
 }
 
 .footer {
@@ -65,5 +67,5 @@ img {
 	width: 53.84em;
 	height: 2em;
 	box-shadow: 0 0 0.8em #555;
-	background: white;
+	background: #fff;
 }
